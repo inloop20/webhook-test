@@ -7,7 +7,7 @@
 </head>
 <body class="bg-gray-100 min-h-screen">
 <div class="max-w-6xl mx-auto py-10">
-    <h1 class="text-3xl font-bold mb-6">🚀 GitHub Webhook Dashboard</h1>
+    <h1 class="text-3xl font-bold mb-6">GitHub Webhook Dashboard</h1>
 
     <div class="bg-white shadow rounded-lg overflow-hidden">
         <table class="w-full text-sm">
