@@ -19,6 +19,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+         $this->app->resolving(VerifyCsrfToken::class, function ($middleware) {
+        $middleware->except[] = 'webhook/github';
+    });
     }
 }
